@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abhijeet's Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Abhijeet</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <div class="home-content">
+      <h1>Hi, I'm Abhijeet</h1>
+      <p>Web Designer</p>
+    </div>
+    <div class="home-image">
+      <img src="https://static.vecteezy.com/system/resources/thumbnails/050/980/775/small/3d-programmer-busy-on-laptop-illustration-png.png" alt="Abhijeet's png Photo">
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>My name is Abhijeet Kad.</p>
+    <p>I am Computer Engineer</p>
+    <p>I Completed Internship in Web Devlopment From CodSoft</p>
+    <p>I Like to do Web devlopment</p>
+    <button onclick="window.location.href='#skills'">Read More</button>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML - 99%</li>
+      <li>CSS - 85%</li>
+      <li>Java - 55%</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="submit_form.php" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="description">Description:</label>
+      <textarea id="description" name="description" rows="4" placeholder="Enter your message..."></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Follow me on <a href="https://instagram.com/yourhandle">Instagram</a></p>
+    <p>Email: abhijeet@gmail.com</p>
+  </footer>
+</body>
+</html>
